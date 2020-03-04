@@ -7,6 +7,7 @@ public class Fzd1 {
 
     /**
      * 递归法实现
+     * O(2^n)
      * */
     public static int fibnx1(int n){
         if (n <= 1)
@@ -22,6 +23,7 @@ public class Fzd1 {
      * N2+N3 = N4(n=3时)，N2为这次的开始数，N3为这次的结尾数，
      * N3+N4 = N5(n=4),N3为这次的开始数，N4为这次的结尾数,  --当前第n个的数为n+1的结尾数
      *
+     * O(n)
      * */
     public  static int fibnx2(int n){
         if (n <= 1)
@@ -30,7 +32,7 @@ public class Fzd1 {
         int start = 0;
         int end = 1;
         int result = 0;
-        for (int i = 2; i <=n ; i++) {
+        for (int i = 0; i <n-1 ; i++) {
             result = start + end; //开始数+结尾数
             start = end;          // 先替换调下一次的开始数 即 上一次的结尾数
             end = result;         // 再替换调下一次的结尾数 即 result
@@ -43,13 +45,13 @@ public class Fzd1 {
         TimeUtils.getRunningTime("fibnx1", new TimeUtils.Task() {
             @Override
             public void execute() {
-                fibnx1(n);
+                System.out.println(fibnx1(n));
             }
         });
         TimeUtils.getRunningTime("fibnx2", new TimeUtils.Task() {
             @Override
             public void execute() {
-                fibnx2(n);
+                System.out.println(fibnx2(n));
             }
         });
     }
