@@ -53,40 +53,42 @@ public class MyArrayList<E> {
         return size == 0;
     }
     /**
-     *  是否包含某个元素
+     *  是否包含某个元素-即存在下标
      * */
-    public boolean contains(E e){
-        return true;
+    public boolean contains(Object obj){
+        return indexOf(obj) >= 0;
     }
 
     /**
      *  返回下标对应的元素
      * */
     public E get(int index){
+        //检查下标
+        validateRange();
         return (E) elementData[index];
     }
 
     /**
      *  设置下标对应的元素
      * */
-    public boolean set(int index, E e){
-        elementData[size++] = e;
+    public boolean set(int index, Object obj){
+        elementData[size++] = obj;
         return true;
     }
 
     /**
      * 添加元素到最后位
      * */
-    public boolean add(E e){
-        elementData[size++] = e;
+    public boolean add(Object obj){
+        elementData[size++] = obj;
         return true;
     }
 
     /**
      *  指定下标添加元素
      * */
-    public boolean add(int index, E e){
-        elementData[size++] = e;
+    public boolean add(int index, Object obj){
+        elementData[size++] = obj;
         return true;
     }
 
@@ -100,27 +102,42 @@ public class MyArrayList<E> {
     }
 
     /**
-     *  返回元素的下标位置
+     *  返回元素的下标位置,没有元素返回-1即可
      * */
-    public boolean indexOf(E e){
-        elementData[size++] = e;
-        return true;
+    public int indexOf(Object obj){
+        if (obj == null){
+            for (int i = 0; i < size; i++) {
+                if (elementData[i] == null)
+                    return i;
+            }
+        }else {
+            for (int i = 0; i < size; i++) {
+                if (obj.equals(elementData[i]))
+                    return i;
+            }
+        }
+        return -1;
     }
 
     /**
      *  清除所有元素
      * */
-    public boolean clear(E e){
-        elementData[size++] = e;
-        return true;
+    public void clear(){
+        for (int i = 0; i < size; i++) {
+            elementData[i] = null;
+        }
     }
 
     /**
      *  遍历所有元素
      * */
-    public boolean iterator(E e){
-        elementData[size++] = e;
+    public boolean iterator(Object obj){
+        elementData[size++] = obj;
         return true;
+    }
+
+    private void validateRange(int index){
+
     }
 
 }
