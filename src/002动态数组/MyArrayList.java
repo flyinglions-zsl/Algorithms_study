@@ -64,7 +64,7 @@ public class MyArrayList<E> {
      * */
     public E get(int index){
         //检查下标
-        validateRange();
+        validateRange(index);
         return (E) elementData[index];
     }
 
@@ -72,7 +72,9 @@ public class MyArrayList<E> {
      *  设置下标对应的元素
      * */
     public boolean set(int index, Object obj){
-        elementData[size++] = obj;
+        validateRange(index);
+        elementData[index] = obj;
+        size++;
         return true;
     }
 
@@ -88,7 +90,9 @@ public class MyArrayList<E> {
      *  指定下标添加元素
      * */
     public boolean add(int index, Object obj){
-        elementData[size++] = obj;
+        validateRange(index);
+        elementData[index] = obj;
+        size++;
         return true;
     }
 
@@ -97,7 +101,9 @@ public class MyArrayList<E> {
      *  删除下标对应的元素
      * */
     public boolean remove(int index){
-        elementData[size++] = 1;
+        validateRange(index);
+        elementData[index] = null;
+        size--;
         return true;
     }
 
@@ -136,8 +142,14 @@ public class MyArrayList<E> {
         return true;
     }
 
-    private void validateRange(int index){
-
+    private String getOutMsg(int index){
+        return "out index is:" + index + ", size is:" + size;
     }
+
+    private void validateRange(int index){
+        if (index >= size)
+            throw new IndexOutOfBoundsException(getOutMsg(index));
+    }
+
 
 }
