@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="66592c8a-ab4d-4917-9127-55fa648d97d3" name="Default Changelist" comment="" />
+    <list default="true" id="e3b721d8-7861-4cd9-8f4a-7ff2f755021c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/java/leetcode/simple100/只出现一次.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/leetcode/simple100/合并二叉树.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms_study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms_study.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/001-复杂度/Fzd1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/study/复杂度/Fzd1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/001-复杂度/read.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/study/复杂度/read.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/002动态数组/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/study/链表/MyArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/002动态数组/read.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/study/链表/read.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/003链表/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/study/链表/MyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/003链表/read.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TimeUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/study/复杂度/TimeUtils.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,14 +28,35 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1kzQJQaW6bxzyR8FNSCTjMypP45" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/java/study/three" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/java/study/three" />
+      <recent name="$PROJECT_DIR$/src/java/study/two" />
+      <recent name="$PROJECT_DIR$/src/java/study/one" />
+      <recent name="$PROJECT_DIR$/src/数据结构学习/001" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="study.链表" />
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/001-复杂度" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -35,25 +70,64 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MyArrayList">
-    <configuration name="Fzd1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Fzd1" />
+  <component name="RunManager" selected="Application.合并二叉树">
+    <configuration name="只出现一次" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.simple100.只出现一次" />
       <module name="Algorithms_study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.simple100.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MyArrayList" />
+    <configuration name="合并二叉树" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.simple100.合并二叉树" />
       <module name="Algorithms_study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.simple100.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="study.链表.MyLinkedList" />
+      <module name="Algorithms_study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="study.链表.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="合并二叉树" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.simple100.合并二叉树" />
+      <module name="Algorithms_study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.simple100.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MyArrayList" />
-        <item itemvalue="Application.Fzd1" />
+        <item itemvalue="Application.合并二叉树" />
+        <item itemvalue="Application.MyLinkedList" />
+        <item itemvalue="Application.只出现一次" />
       </list>
     </recent_temporary>
   </component>
@@ -61,6 +135,32 @@
     <configuration />
   </component>
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e3b721d8-7861-4cd9-8f4a-7ff2f755021c" name="Default Changelist" comment="" />
+      <created>1606700867481</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606700867481</updated>
+      <workItem from="1606700869931" duration="1039000" />
+      <workItem from="1606701927173" duration="4054000" />
+      <workItem from="1606714630519" duration="2336000" />
+    </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

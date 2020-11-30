@@ -1,6 +1,5 @@
-import com.sun.image.codec.jpeg.JPEGImageEncoder;
+package study.链表;
 
-import java.util.ArrayList;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
