@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3b721d8-7861-4cd9-8f4a-7ff2f755021c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/java/leetcode/simple100/汉明距离.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/leetcode/simple100/翻转二叉树.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/leetcode/simple100/汉明距离.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/leetcode/simple100/汉明距离.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +61,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.汉明距离">
+  <component name="RunManager" selected="Application.翻转二叉树">
     <configuration name="只出现一次" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.simple100.只出现一次" />
       <module name="Algorithms_study" />
@@ -74,8 +75,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="汉明距离" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.simple100.汉明距离" />
+    <configuration name="翻转二叉树" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.simple100.翻转二叉树" />
       <module name="Algorithms_study" />
       <extension name="coverage">
         <pattern>
@@ -93,6 +94,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="study.链表.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="汉明距离" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.simple100.汉明距离" />
+      <module name="Algorithms_study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.simple100.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,7 +168,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.汉明距离" />
+        <item itemvalue="Application.翻转二叉树" />
         <item itemvalue="Application.MyLinkedList" />
         <item itemvalue="Application.只出现一次" />
       </list>
@@ -174,7 +188,8 @@
       <workItem from="1606701927173" duration="4054000" />
       <workItem from="1606714630519" duration="3083000" />
       <workItem from="1606873276642" duration="2148000" />
-      <workItem from="1606988067026" duration="1170000" />
+      <workItem from="1606988067026" duration="2765000" />
+      <workItem from="1607411803587" duration="1725000" />
     </task>
     <servers />
   </component>

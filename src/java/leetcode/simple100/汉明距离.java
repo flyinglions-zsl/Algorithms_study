@@ -37,7 +37,7 @@ public class 汉明距离 {
 
     public static int distance2(int x, int y) {
         int res = x ^ y;
-        
+
         return Integer.bitCount(res);
     }
 }
