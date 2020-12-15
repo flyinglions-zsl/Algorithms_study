@@ -36,10 +36,27 @@ public class 移动零 {
         }
     }
 
+    public static void moveZeroes2(int[] nums) {
+        int n = nums.length, left = 0, right = 0;
+        while (right < n) {
+            if (nums[right] != 0) {
+                swap(nums, left, right);
+                left++;
+            }
+            right++;
+        }
+    }
+
+    public static void swap(int[] nums, int left, int right) {
+        int temp = nums[left];
+        nums[left] = nums[right];
+        nums[right] = temp;
+    }
+
 
     public static void main(String[] args) {
         int []nums = new int[]{0,1,0,3,12};
-        moveZeroes(nums);
+        moveZeroes2(nums);
         for (int i:nums){
             System.out.print(i+"  ");
         }
