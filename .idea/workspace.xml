@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3b721d8-7861-4cd9-8f4a-7ff2f755021c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/java/leetcode/simple100/对称二叉树.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/leetcode/simple100/最大子序和.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/leetcode/simple100/对称二叉树.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/leetcode/simple100/对称二叉树.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,9 +62,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.买卖股票的最佳时机">
-    <configuration name="找到所有数组中消失的数字" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.simple100.找到所有数组中消失的数字" />
+  <component name="RunManager" selected="Application.对称二叉树">
+    <configuration name="对称二叉树" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.simple100.对称二叉树" />
       <module name="Algorithms_study" />
       <extension name="coverage">
         <pattern>
@@ -311,11 +312,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.对称二叉树" />
         <item itemvalue="Application.买卖股票的最佳时机" />
         <item itemvalue="Application.最小栈" />
         <item itemvalue="Application.Demo" />
         <item itemvalue="Application.相交链表" />
-        <item itemvalue="Application.找到所有数组中消失的数字" />
       </list>
     </recent_temporary>
   </component>
@@ -338,7 +339,7 @@
       <workItem from="1607508785399" duration="15343000" />
       <workItem from="1607916186005" duration="4022000" />
       <workItem from="1608016152447" duration="4847000" />
-      <workItem from="1608170823591" duration="17439000" />
+      <workItem from="1608170823591" duration="20867000" />
     </task>
     <task id="LOCAL-00001" summary="翻转二叉树">
       <created>1607413880394</created>

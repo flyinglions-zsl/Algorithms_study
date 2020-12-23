@@ -1,5 +1,8 @@
 package leetcode.simple100;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * 给定一个二叉树，检查它是否是镜像对称的。
  *
@@ -55,6 +58,5 @@ public class 对称二叉树 {
     }
 
     public static void main(String[] args) {
-
     }
 }
