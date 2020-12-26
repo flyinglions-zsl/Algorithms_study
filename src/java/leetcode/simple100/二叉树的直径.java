@@ -44,9 +44,9 @@ public class 二叉树的直径 {
         }else {
             temp = 1;
         }
-        int left = loop(node.left);
-        int right = loop(node.right);
-        res = Math.max((left + right + 1), res);//某个节点最长为：左右子树长度相加+1(包括了根节点) 然后与之前得到过的长度比较 每次拿最大的即可
+        int left = loop(node.left);//左树经过的最长子节点树
+        int right = loop(node.right);//右树经过的最长子节点树
+        res = Math.max((left + right + 1), res);//某个节点最长为：左右子树节点相加+1(包括了根节点) 然后与之前得到过的节点树比较 每次拿最大的即可
         return Math.max(left, right) + temp;
     }
 
